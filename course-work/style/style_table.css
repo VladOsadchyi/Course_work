@@ -1,0 +1,10 @@
+table {
+    border-collapse: collapse; /* Об'єднання межів */
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid red; /* Товщина 1px, червоний колір */
+    padding: 8px;
+    text-align: left;
+}

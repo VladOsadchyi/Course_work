@@ -1,0 +1,46 @@
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Один стовпець шириною мінімум 300px, з автоматичним розтягненням */
+    gap: 20px; /* Відстань між стовпцями */
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Відступ між блоками */
+}
+
+.product img {
+    width: 100%;
+    max-width: 150px; /* Максимальна ширина зображення */
+    max-height: 100px; /* Максимальна висота зображення */
+    object-fit: cover;
+}
+.product-image {
+    width: 100%;
+    max-width: 400px; /* Максимальна ширина зображення */
+    max-height: 400px; /* Максимальна висота зображення */
+    object-fit: cover;
+}
+
+/* CSS для стилізації кнопки "Замовити" */
+.order-button {
+    display: inline-block;
+    padding: 10px 20px; /* Задаємо відступи внутрішніх текстів */
+    font-size: 16px; /* Розмір шрифту */
+    border: none; /* Видаляємо рамку */
+    border-radius: 5px; /* Закруглені кути */
+    background-color: #007bff; /* Колір фону кнопки */
+    color: #fff; /* Колір тексту */
+    cursor: pointer; /* Змінюємо курсор при наведенні */
+    transition: background-color 0.3s; /* Плавний перехід при зміні кольору фону */
+    width: 150px; /* Ширина кнопки */
+    height: 40px;
+}
+
+.order-button:hover {
+    background-color: #0056b3; /* Зміна кольору фону при наведенні */
+}

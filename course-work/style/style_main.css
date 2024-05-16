@@ -1,0 +1,38 @@
+/* styles.css */
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    padding-top: 100px;
+}
+
+.menu-link {
+    color: #000; /* колір тексту для посилань */
+}
+
+.menu-link:hover {
+    text-decoration: none; /* забирає підкреслення при наведенні */
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9); /* білий фон навігаційного меню */
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: #000; /* колір тексту для посилань */
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #000; /* колір тексту для посилань при наведенні */
+}
+
+.welcome-container {
+    background-color: #fff; /* білий фон */
+    padding: 20px; /* відступи від країв */
+    border-radius: 10px; /* закруглені кути */
+    margin-top: 20px; /* відступ від заголовка */
+    color: #000; /* чорний колір тексту */
+}

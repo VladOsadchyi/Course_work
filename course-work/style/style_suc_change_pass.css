@@ -1,0 +1,10 @@
+body {
+    background-color: hsl(122, 70%, 91%);
+    color: #721c24;
+    padding: 40px;
+    text-align: center;
+}
+.alert {
+    width: 50%;
+    margin: auto;
+}
