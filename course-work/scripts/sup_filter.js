@@ -7,7 +7,6 @@ function applyFilter() {
     table = document.getElementById("supplierTable");
     tr = table.getElementsByTagName("tr");
 
-    // Loop through all table rows, and hide those who don't match the search query
     for (i = 0; i < tr.length; i++) {
         tdCategory = tr[i].getElementsByTagName("td")[2];
         tdAddress = tr[i].getElementsByTagName("td")[1];
